@@ -1,0 +1,35 @@
+{
+  "program": "bias-week",
+  "grades_per_seat": 4,
+  "outcome_grades": 4,
+  "seat_usd": 9000,
+  "outcome_usd": 2500,
+  "blocks": [
+    {
+      "id": "ldo-bias",
+      "gain_min": 40,
+      "power_max": 80,
+      "noise_max": 12,
+      "candidates": [
+        {"id": "s-tight", "sizing": "S", "layout": "tight", "gain": 48, "power": 50, "noise_schematic": 6, "parasitic": 9, "feel": 1},
+        {"id": "s-spaced", "sizing": "S", "layout": "spaced", "gain": 48, "power": 50, "noise_schematic": 6, "parasitic": 3, "feel": 4},
+        {"id": "m-tight", "sizing": "M", "layout": "tight", "gain": 44, "power": 70, "noise_schematic": 4, "parasitic": 9, "feel": 2},
+        {"id": "m-spaced", "sizing": "M", "layout": "spaced", "gain": 44, "power": 70, "noise_schematic": 4, "parasitic": 3, "feel": 5},
+        {"id": "l-tight", "sizing": "L", "layout": "tight", "gain": 36, "power": 110, "noise_schematic": 3, "parasitic": 9, "feel": 3},
+        {"id": "l-spaced", "sizing": "L", "layout": "spaced", "gain": 36, "power": 110, "noise_schematic": 3, "parasitic": 3, "feel": 6}
+      ]
+    },
+    {
+      "id": "bandgap",
+      "gain_min": 20,
+      "power_max": 100,
+      "noise_max": 10,
+      "candidates": [
+        {"id": "a-tight", "sizing": "A", "layout": "tight", "gain": 30, "power": 60, "noise_schematic": 5, "parasitic": 8, "feel": 1},
+        {"id": "a-spaced", "sizing": "A", "layout": "spaced", "gain": 30, "power": 60, "noise_schematic": 5, "parasitic": 2, "feel": 2},
+        {"id": "b-tight", "sizing": "B", "layout": "tight", "gain": 22, "power": 90, "noise_schematic": 4, "parasitic": 8, "feel": 3},
+        {"id": "b-spaced", "sizing": "B", "layout": "spaced", "gain": 22, "power": 90, "noise_schematic": 4, "parasitic": 2, "feel": 4}
+      ]
+    }
+  ]
+}
